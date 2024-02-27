@@ -1,0 +1,16 @@
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\bin\Debug\net8.0\NetworkServiceCatalog.Application.deps.json
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\bin\Debug\net8.0\NetworkServiceCatalog.Application.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\bin\Debug\net8.0\NetworkServiceCatalog.Application.pdb
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\bin\Debug\net8.0\NetworkServiceCatalog.Domain.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\bin\Debug\net8.0\NetworkServiceCatalog.Domain.pdb
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.csproj.AssemblyReference.cache
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.AssemblyInfoInputs.cache
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.AssemblyInfo.cs
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.csproj.CoreCompileInputs.cache
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkS.FA392BEE.Up2Date
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\refint\NetworkServiceCatalog.Application.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.pdb
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\ref\NetworkServiceCatalog.Application.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Application\obj\Debug\net8.0\NetworkServiceCatalog.Application.sourcelink.json

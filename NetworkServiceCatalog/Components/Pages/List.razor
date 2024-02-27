@@ -1,0 +1,54 @@
+﻿@page "/"
+@inject ILocationRepository Repository
+
+<PageTitle>Services</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <h2 class="header">Services</h2>
+        @if(locations is null)
+        {
+            <div class="location-item">
+                Loading services. Please wait...
+            </div>
+        }
+        else if(locations.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Location Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach(var location in locations)
+            {
+                        <tr>
+                            <td>@location.LocationName</td>
+                            <td>@location.IsOnlineStr</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="location-item">
+                No Services Found
+            </div>
+        }
+        <a href="/add-new" class="btn btn-primary shadow-none mb-3">
+            Add New
+        </a>
+    </div>
+</div>
+
+@code {
+    private List<Location>? locations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        locations = await Repository.GetAllAsync();
+    }
+}

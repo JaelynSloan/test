@@ -1,0 +1,46 @@
+﻿@page "/add-new"
+@inject ILocationRepository Repository
+@inject NavigationManager Navigation
+
+<PageTitle>Add New Location</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <EditForm Enhance="true" method="post" FormName="AddLocationForm" OnValidSubmit="AddLocation" Model="Location" autocompletion="off">
+            <h2>Add New Location</h2>
+            <div class="mb-3">
+                <label for="location-name" class="form-label">
+                    Location Name
+                </label>
+                <InputText id="location-name" @bind-Value="Location.LocationName" class="form-control shadow-none"></InputText>
+            </div>
+            <div class="mb-3">
+                <label for="ip-address" class="form-label">
+                    IP Address
+                </label>
+                <InputText id="ip-address" @bind-Value="Location.IpAddress" class="form-control shadow-none"></InputText>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary shadow-none">
+                    Submit
+                </button>
+                <a href="/" class="btn btn-secondary shadow-none ms-3">
+                    Back to List
+                </a>
+            </div>
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    public Location Location { get; set; } = new();
+
+    private async Task AddLocation()
+    {
+        await Repository.AddAsync(Location);
+        Navigation.NavigateTo("/");
+    }
+}
