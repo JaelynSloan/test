@@ -15,7 +15,14 @@ builder.Services.AddDbContextFactory<NetworkServiceCatalogDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NetworkServiceCatalogConnection"));
 });
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
+    options.InstanceName = "SampleInstance";
+});
+
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
+
 
 var app = builder.Build();
 
