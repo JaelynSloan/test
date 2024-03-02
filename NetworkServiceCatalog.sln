@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkServiceCatalog.Domain", "NetworkServiceCatalog.Domain\NetworkServiceCatalog.Domain.csproj", "{11775D63-4A4B-4E0B-9040-915DE3520477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkServiceCatalog.Domain", "NetworkServiceCatalog.Domain\NetworkServiceCatalog.Domain.csproj", "{11775D63-4A4B-4E0B-9040-915DE3520477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkServiceCatalog.Application", "NetworkServiceCatalog.Application\NetworkServiceCatalog.Application.csproj", "{5DDDAE51-C1A2-48AD-8EBD-C4236787ED03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkServiceCatalog.Application", "NetworkServiceCatalog.Application\NetworkServiceCatalog.Application.csproj", "{5DDDAE51-C1A2-48AD-8EBD-C4236787ED03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkServiceCatalog.Infrastructure", "NetworkServiceCatalog.Infrastructure\NetworkServiceCatalog.Infrastructure.csproj", "{920FE4F4-19A8-472D-8ECB-B30D3C2F05B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkServiceCatalog.Infrastructure", "NetworkServiceCatalog.Infrastructure\NetworkServiceCatalog.Infrastructure.csproj", "{920FE4F4-19A8-472D-8ECB-B30D3C2F05B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkServiceCatalog", "NetworkServiceCatalog\NetworkServiceCatalog.csproj", "{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkServiceCatalog", "NetworkServiceCatalog\NetworkServiceCatalog.csproj", "{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

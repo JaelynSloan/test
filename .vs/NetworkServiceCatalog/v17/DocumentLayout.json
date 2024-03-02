@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11775D63-4A4B-4E0B-9040-915DE3520477}|NetworkServiceCatalog.Domain\\NetworkServiceCatalog.Domain.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog.domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11775D63-4A4B-4E0B-9040-915DE3520477}|NetworkServiceCatalog.Domain\\NetworkServiceCatalog.Domain.csproj|solutionrelative:networkservicecatalog.domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog\\components\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|solutionrelative:networkservicecatalog\\components\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11775D63-4A4B-4E0B-9040-915DE3520477}|NetworkServiceCatalog.Domain\\NetworkServiceCatalog.Domain.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog.domain\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11775D63-4A4B-4E0B-9040-915DE3520477}|NetworkServiceCatalog.Domain\\NetworkServiceCatalog.Domain.csproj|solutionrelative:networkservicecatalog.domain\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog\\components\\pages\\list.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|solutionrelative:networkservicecatalog\\components\\pages\\list.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog\\components\\pages\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|solutionrelative:networkservicecatalog\\components\\pages\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|c:\\users\\jaely\\source\\repos\\networkservicecatalog\\networkservicecatalog\\components\\pages\\addnew.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F6CC9A3-C17F-4F37-8C6F-86D980FCAAE6}|NetworkServiceCatalog\\NetworkServiceCatalog.csproj|solutionrelative:networkservicecatalog\\components\\pages\\addnew.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +25,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 308,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 273,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,32 +34,48 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddNew.razor",
+              "DocumentMoniker": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\AddNew.razor",
+              "RelativeDocumentMoniker": "NetworkServiceCatalog\\Components\\Pages\\AddNew.razor",
+              "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\AddNew.razor",
+              "RelativeToolTip": "NetworkServiceCatalog\\Components\\Pages\\AddNew.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-01T17:17:41.72Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog.Domain\\Entities\\Location.cs",
-              "RelativeDocumentMoniker": "NetworkServiceCatalog.Domain\\Entities\\Location.cs",
-              "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog.Domain\\Entities\\Location.cs",
-              "RelativeToolTip": "NetworkServiceCatalog.Domain\\Entities\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T01:56:18.143Z",
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\Edit.razor",
+              "RelativeDocumentMoniker": "NetworkServiceCatalog\\Components\\Pages\\Edit.razor",
+              "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\Edit.razor",
+              "RelativeToolTip": "NetworkServiceCatalog\\Components\\Pages\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-01T17:14:38.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Network.cs",
-              "DocumentMoniker": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog.Domain\\Network.cs",
-              "RelativeDocumentMoniker": "NetworkServiceCatalog.Domain\\Network.cs",
-              "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog.Domain\\Network.cs",
-              "RelativeToolTip": "NetworkServiceCatalog.Domain\\Network.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T01:55:25.095Z",
+              "Title": "List.razor.css",
+              "DocumentMoniker": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\List.razor.css",
+              "RelativeDocumentMoniker": "NetworkServiceCatalog\\Components\\Pages\\List.razor.css",
+              "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\List.razor.css",
+              "RelativeToolTip": "NetworkServiceCatalog\\Components\\Pages\\List.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-27T19:25:11.527Z",
               "EditorCaption": ""
             },
             {
@@ -66,15 +86,15 @@
               "RelativeDocumentMoniker": "NetworkServiceCatalog\\Components\\Pages\\List.razor",
               "ToolTip": "C:\\Users\\jaely\\source\\repos\\NetworkServiceCatalog\\NetworkServiceCatalog\\Components\\Pages\\List.razor",
               "RelativeToolTip": "NetworkServiceCatalog\\Components\\Pages\\List.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-27T01:28:02.996Z",
+              "WhenOpened": "2024-02-27T19:23:42.681Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 103,
+          "DockedHeight": 138,
           "SelectedChildIndex": -1,
           "Children": [
             {

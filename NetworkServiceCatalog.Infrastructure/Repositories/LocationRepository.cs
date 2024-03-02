@@ -24,5 +24,17 @@ namespace NetworkServiceCatalog.Infrastructure.Repositories
             var locations = await context.Locations.ToListAsync();
             return locations;
         }
+
+        public async Task<Location?> GetByIdAsync(int id)
+        {
+            var location = context.Locations.FirstOrDefault(e=> e.Id == id);
+            return location;
+        }
+
+        public async Task UpdateAsync(Location location)
+        {
+            context.Entry(location).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
     }
 }

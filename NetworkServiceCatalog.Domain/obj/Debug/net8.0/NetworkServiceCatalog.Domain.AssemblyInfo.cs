@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetworkServiceCatalog.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9e4ce5bfe6e748a818de3b195de926d6c18630f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36d4ac2d00ff7c49b434120e4432db77fd264775")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetworkServiceCatalog.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetworkServiceCatalog.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

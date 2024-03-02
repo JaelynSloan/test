@@ -7,6 +7,10 @@ html, body {
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 }
 
+body {
+    width: auto;
+}
+
 .btn-primary {
     background-color: #e60000;
     color: #ffffff;

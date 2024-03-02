@@ -1,0 +1,61 @@
+﻿@page "/edit/{id:int}"
+@inject ILocationRepository Repository
+@inject NavigationManager Navigation
+
+<PageTitle>Edit Location</PageTitle>
+
+@if(Location is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <EditForm Enhance="true" method="post" FormName="EditLocationForm" OnValidSubmit="EditLocation" Model="Location" autocompletion="off">
+                <h2>Edit Location: @Location.LocationName</h2>
+                <input type="hidden" name="Location.Id" value="@Location.Id" />
+                <div class="mb-3">
+                    <label for="location-name" class="form-label">
+                        Location Name
+                    </label>
+                    <InputText id="location-name" @bind-Value="Location.LocationName" class="form-control shadow-none"></InputText>
+                </div>
+                <div class="mb-3">
+                    <label for="ip-address" class="form-label">
+                        IP Address
+                    </label>
+                    <InputText id="ip-address" @bind-Value="Location.IpAddress" class="form-control shadow-none"></InputText>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary shadow-none">
+                        Submit
+                    </button>
+                    <a href="/" class="btn btn-secondary shadow-none ms-3">
+                        Back to List
+                    </a>
+                </div>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Location? Location { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Location ??= await Repository.GetByIdAsync(Id);
+    }
+
+    private async Task EditLocation()
+    {
+        if(Location is not null)
+        {
+            await Repository.UpdateAsync(Location);
+            Navigation.NavigateTo("/");
+        }
+    }
+}

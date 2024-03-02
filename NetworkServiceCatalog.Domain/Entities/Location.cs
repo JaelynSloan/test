@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Net.NetworkInformation;
 
 namespace NetworkServiceCatalog.Domain.Entities
 {
@@ -13,7 +14,8 @@ namespace NetworkServiceCatalog.Domain.Entities
         [Required(ErrorMessage ="Please enter a valid IP address")]
         [StringLength(39)]
         public string IpAddress { get; set; }
-        public bool IsOnline { get; set; }
-        public virtual string IsOnlineStr => IsOnline ? "Online" : "Offline";
+
     }
+
 }
+

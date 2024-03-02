@@ -4,43 +4,75 @@
     /* Additional styling for the h3 tag if needed */
 }
 
-.row {
-    margin-top: 20px; 
-}
 
 /* Style for the loading message */
 .location-item {
-    background-color: #e60000; /* Example background color for an error message */
+    background-color: #e60000;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 
-/* Style for the table */
 .table {
-    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
     /* Style for the table headers */
     .table th {
-        background-color: #e60000; /* Example header background color */
+        background-color: #e60000;
         color: #ffffff;
+        font-size: 20px;
     }
 
     /* Style for the table rows */
     .table td {
         border: 1px solid #dddddd;
         padding: 8px;
+        font-size: 16px;
     }
+
+.tb-edit {
+    max-width: 100px; /* Adjust the value according to your needs */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the location name */
+.location-name {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+/* Style for the edit button */
+.edit-btn {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.status {
+    display: flex;
+}
+
+.edit-container {
+    margin-left: auto;
+}
 
 /* Style for the "No Services Found" message */
 .location-item {
-    background-color: #f8d7da; /* Example background color for an error message */
+    background-color: #f8d7da;
     padding: 10px;
     margin-bottom: 10px;
 }
 
+.online-status {
+    color: green;
+}
 
-/* Additional styles can be added as needed */
+.offline-status {
+    color: red;
+}

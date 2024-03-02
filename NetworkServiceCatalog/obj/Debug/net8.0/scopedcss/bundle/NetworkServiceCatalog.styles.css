@@ -163,43 +163,78 @@ li.nav-item[b-nljpb6ggoe] {
     /* Additional styling for the h3 tag if needed */
 }
 
-.row[b-iqj0krhovk] {
-    margin-top: 20px; 
-}
 
 /* Style for the loading message */
 .location-item[b-iqj0krhovk] {
-    background-color: #e60000; /* Example background color for an error message */
+    background-color: #e60000;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 
-/* Style for the table */
 .table[b-iqj0krhovk] {
-    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
     /* Style for the table headers */
     .table th[b-iqj0krhovk] {
-        background-color: #e60000; /* Example header background color */
+        background-color: #e60000;
         color: #ffffff;
+        font-size: 20px;
     }
 
     /* Style for the table rows */
     .table td[b-iqj0krhovk] {
         border: 1px solid #dddddd;
         padding: 8px;
+        font-size: 16px;
     }
+
+.tb-edit[b-iqj0krhovk] {
+    max-width: 100px; /* Adjust the value according to your needs */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.location-info[b-iqj0krhovk] {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the location name */
+.location-name[b-iqj0krhovk] {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+/* Style for the edit button */
+.edit-btn[b-iqj0krhovk] {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.status[b-iqj0krhovk] {
+    display: flex;
+}
+
+.edit-container[b-iqj0krhovk] {
+    margin-left: auto;
+}
+
+
+
 
 /* Style for the "No Services Found" message */
 .location-item[b-iqj0krhovk] {
-    background-color: #f8d7da; /* Example background color for an error message */
+    background-color: #f8d7da;
     padding: 10px;
     margin-bottom: 10px;
 }
 
+.online-status[b-iqj0krhovk] {
+    color: green;
+}
 
-/* Additional styles can be added as needed */
+.offline-status[b-iqj0krhovk] {
+    color: red;
+}
