@@ -141,3 +141,9 @@ C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\obj\Debu
 C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\obj\Debug\net8.0\NetworkServiceCatalog.sourcelink.json
 C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\obj\Debug\net8.0\scopedcss\Components\Pages\List.razor.rz.scp.css
 C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog\bin\Debug\net8.0\StackExchange.Redis.dll

@@ -1,0 +1,12 @@
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\bin\Release\net8.0\NetworkServiceCatalog.Domain.deps.json
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\bin\Release\net8.0\NetworkServiceCatalog.Domain.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\bin\Release\net8.0\NetworkServiceCatalog.Domain.pdb
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.AssemblyInfoInputs.cache
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.AssemblyInfo.cs
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.sourcelink.json
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\refint\NetworkServiceCatalog.Domain.dll
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\NetworkServiceCatalog.Domain.pdb
+C:\Users\jaely\source\repos\NetworkServiceCatalog\NetworkServiceCatalog.Domain\obj\Release\net8.0\ref\NetworkServiceCatalog.Domain.dll

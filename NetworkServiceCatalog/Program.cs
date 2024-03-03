@@ -3,8 +3,10 @@ using NetworkServiceCatalog.Application.Interfaces;
 using NetworkServiceCatalog.Components;
 using NetworkServiceCatalog.Infrastructure.Context;
 using NetworkServiceCatalog.Infrastructure.Repositories;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
